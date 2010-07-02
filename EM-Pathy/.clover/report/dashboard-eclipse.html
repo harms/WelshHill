@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=${charset}"/>
+
+        <link rel="SHORTCUT ICON" href="img/clover.ico" />
+
+    <style type="text/css" media="screen">
+        @import url('style.css');
+        @import url('roundedcorners.css');
+        @import url('tree.css');
+            </style>
+    
+    <title>Clover</title>
+</head><body onload="setBrowserTitle('${headerTitle}: Dashboard')" style="min-width:200px">
+
+        
+<table cellspacing="0" cellpadding="0" class="barGraph">
+
+<tr valign="top">
+
+    <td class="hbreak" colspan="1">
+                <div class="tags roundedLarge" style="padding: 5px;">
+            <b class="ctop $cnrclass"><b class="cb1"></b><b class="cb2"></b><b class="cb3"></b><b class="cb4"></b></b>
+        <div class="roundedContent" style="padding: 5px;">
+                
+            <label class="titleText link" onkeyup="return help_dash_coverage;" onclick="self.location='cloverview:coverage'">Coverage</label><span> 7 classes, 141 / 163 elements</span>
+            <table><tr><td>86.5%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.86503065</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="13.5% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="86.5% Covered" class="barPositive " style="width: 86.5%"></div>
+    </div>
+</div></td></tr></table>
+                </div>
+            <b class="cbottom"><b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b></b>
+        </div>
+    
+                <div class="tags roundedLarge" style="padding: 5px;">
+            <b class="ctop $cnrclass"><b class="cb1"></b><b class="cb2"></b><b class="cb3"></b><b class="cb4"></b></b>
+        <div class="roundedContent" style="padding: 5px;">
+                            <label class="titleText link" onkeyup="return help_dash_test_results;" onclick="self.location='cloverview:testresults'">Test Results</label>
+                <span> <span class="">0 / 0</span> tests 0 secs</span>
+            <table>
+                                    
+    <tr><td class="hint helpOverBG" colspan="1">No test results could be found. Please
+    ensure that you have instrumented your unit tests correctly.
+    </td></tr>
+    <tr><td class="hbreak" colspan="1">&nbsp;</td></tr>
+                            </table>
+                </div>
+            <b class="cbottom"><b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b></b>
+        </div>
+    
+        
+        
+                <div class="tags roundedLarge" style="padding: 5px;">
+            <b class="ctop $cnrclass"><b class="cb1"></b><b class="cb2"></b><b class="cb3"></b><b class="cb4"></b></b>
+        <div class="roundedContent" style="padding: 5px;">
+            <label class="titleText link" onkeyup="return help_dash_packages;" onclick="self.location='cloverview:coverage'">Most Complex Packages</label>
+        
+        <table>
+                    
+                        <tr><td>1. </td><td>85.2%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.8518519</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="14.8% Not Covered"  style="min-width: 40px;"  class="barNegative ">
+       <div title="85.2% Covered" class="barPositive " style="width: 85.2%"></div>
+    </div>
+</div></td><td><a class="tag" href="javapkg:flight.manager">flight.manager</a> (30)</td></tr>
+                    
+                        <tr><td>2. </td><td>88%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.88</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="12% Not Covered"  style="min-width: 40px;"  class="barNegative ">
+       <div title="88% Covered" class="barPositive " style="width: 88%"></div>
+    </div>
+</div></td><td><a class="tag" href="javapkg:flight">flight</a> (21)</td></tr>
+                    
+                        <tr><td>3. </td><td>100%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">1.0</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="0% Not Covered"  style="min-width: 40px;"  class="barNegative ">
+       <div title="100% Covered" class="barPositive " style="width: 100%"></div>
+    </div>
+</div></td><td><a class="tag" href="javapkg:flight.passenger">flight.passenger</a> (1)</td></tr>
+                    
+                        <tr><td>4. </td><td> - 
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">-1.0</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="Empty" class="barEmpty" style="min-width: 40px;"></div>
+</div></td><td><a class="tag" href="javapkg:util">util</a> (0)</td></tr>
+                </table>
+                </div>
+            <b class="cbottom"><b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b></b>
+        </div>
+                    <div class="tags roundedLarge" style="padding: 5px;">
+            <b class="ctop $cnrclass"><b class="cb1"></b><b class="cb2"></b><b class="cb3"></b><b class="cb4"></b></b>
+        <div class="roundedContent" style="padding: 5px;">
+            <label class="titleText link" onkeyup="return help_dash_classes;" onclick="self.location='cloverview:coverage'">Most Complex Classes</label>
+        <table>
+                    
+                        <tr><td>1. </td><td>85.2%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.8518519</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="14.8% Not Covered"  style="min-width: 40px;"  class="barNegative ">
+       <div title="85.2% Covered" class="barPositive " style="width: 85.2%"></div>
+    </div>
+</div></td><td>
+                    <a  class="tag" href="javaclass:/flight/manager/FlightDataManagerAgentUtilProcessorClass.java#15_14"  title="flight.manager.FlightDataManagerAgentUtilProcessorClass">FlightDataManagerAgentUtilProcessorClass</a>
+                (30)
+            </td></tr>
+                    
+                        <tr><td>2. </td><td>94.7%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.94736844</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="5.3% Not Covered"  style="min-width: 40px;"  class="barNegative ">
+       <div title="94.7% Covered" class="barPositive " style="width: 94.7%"></div>
+    </div>
+</div></td><td>
+                    <a  class="tag" href="javaclass:/flight/Flight.java#10_14"  title="flight.Flight">Flight</a>
+                (15)
+            </td></tr>
+                    
+                        <tr><td>3. </td><td>66.7%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.6666667</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="33.3% Not Covered"  style="min-width: 40px;"  class="barNegative ">
+       <div title="66.7% Covered" class="barPositive " style="width: 66.7%"></div>
+    </div>
+</div></td><td>
+                    <a  class="tag" href="javaclass:/flight/Route.java#7_14"  title="flight.Route">Route</a>
+                (6)
+            </td></tr>
+                    
+                        <tr><td>4. </td><td>100%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">1.0</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="0% Not Covered"  style="min-width: 40px;"  class="barNegative ">
+       <div title="100% Covered" class="barPositive " style="width: 100%"></div>
+    </div>
+</div></td><td>
+                    <a  class="tag" href="javaclass:/flight/passenger/Passenger.java#3_14"  title="flight.passenger.Passenger">Passenger</a>
+                (1)
+            </td></tr>
+                    
+                        <tr><td>5. </td><td> - 
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">-1.0</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="Empty" class="barEmpty" style="min-width: 40px;"></div>
+</div></td><td>
+                    <a  class="tag" href="javaclass:/util/FlightStatus.java#3_13"  title="util.FlightStatus">FlightStatus</a>
+                (0)
+            </td></tr>
+                </table>
+
+                </div>
+            <b class="cbottom"><b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b></b>
+        </div>
+    
+                <div class="tags roundedLarge" style="padding: 5px;">
+            <b class="ctop $cnrclass"><b class="cb1"></b><b class="cb2"></b><b class="cb3"></b><b class="cb4"></b></b>
+        <div class="roundedContent" style="padding: 5px;">
+                <label class="titleText link" onkeyup="return help_dash_risks;" onclick="self.location='cloverview:toprisks'">Top 5 Project Risks</label>
+            <div>
+            
+                                           <a class="tag" href="javaclass:/flight/Route.java#7_14"
+               style="font-size: 17px;color:#e4051a"
+               title="Average Method Complexity - 1 , Coverage - 66.7% ">Route</a>
+                          
+                                           <a class="tag" href="javaclass:/flight/manager/FlightDataManagerAgentUtilProcessorClass.java#15_14"
+               style="font-size: 25px;color:#4d05b1"
+               title="Average Method Complexity - 2 , Coverage - 85.2% ">FlightDataManagerAgentUtilProcessorClass</a>
+                          
+                                           <a class="tag" href="javaclass:/flight/Flight.java#10_14"
+               style="font-size: 17px;color:#1b05e3"
+               title="Average Method Complexity - 1 , Coverage - 94.7% ">Flight</a>
+                          
+                                           <a class="tag" href="javaclass:/flight/FlightStatus.java#3_13"
+               style="font-size: 9px;color:#0205fc"
+               title="Average Method Complexity - 0 , Coverage -  -  ">FlightStatus</a>
+                          
+                                           <a class="tag" href="javaclass:/util/FlightStatus.java#3_13"
+               style="font-size: 9px;color:#0205fc"
+               title="Average Method Complexity - 0 , Coverage -  -  ">FlightStatus</a>
+                                      </div>
+                </div>
+            <b class="cbottom"><b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b></b>
+        </div>
+    
+        
+
+                        <div class="tags roundedLarge" style="padding: 5px;">
+            <b class="ctop $cnrclass"><b class="cb1"></b><b class="cb2"></b><b class="cb3"></b><b class="cb4"></b></b>
+        <div class="roundedContent" style="padding: 5px;">
+                <label class="titleText link" onkeyup="return help_dash_untested_methods;" onclick="self.location='cloverview:quickwins'">Least Tested Methods</label>
+            <table>
+                
+                <tr>
+                    <td align="right">1.</td>
+                    <td align="right">0%</td>
+                    <td style="padding-left:25px; text-indent:-25px;">                      <a class="tag" title="FlightDataManagerAgentUtilProcessorClass.canConnect(String,String)&nbsp;:&nbsp;boolean" href="javamethod:/flight/manager/FlightDataManagerAgentUtilProcessorClass.java#68_2">FlightDataManagerAgentUtilProcessorClass.canConnect(<wbr>String,<wbr>String)<wbr>&nbsp;:&nbsp;boolean</a> (4)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">2.</td>
+                    <td align="right">0%</td>
+                    <td style="padding-left:25px; text-indent:-25px;">                      <a class="tag" title="Route.getDest()&nbsp;:&nbsp;String" href="javamethod:/flight/Route.java#16_2">Route.getDest(<wbr>)<wbr>&nbsp;:&nbsp;String</a> (1)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">3.</td>
+                    <td align="right">0%</td>
+                    <td style="padding-left:25px; text-indent:-25px;">                      <a class="tag" title="Route.getStart()&nbsp;:&nbsp;String" href="javamethod:/flight/Route.java#20_2">Route.getStart(<wbr>)<wbr>&nbsp;:&nbsp;String</a> (1)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">4.</td>
+                    <td align="right">0%</td>
+                    <td style="padding-left:25px; text-indent:-25px;">                      <a class="tag" title="Flight.getStatus()&nbsp;:&nbsp;FlightStatus" href="javamethod:/flight/Flight.java#42_2">Flight.getStatus(<wbr>)<wbr>&nbsp;:&nbsp;FlightStatus</a> (1)
+                    </td>
+                </tr>
+                            </table>
+                </div>
+            <b class="cbottom"><b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b></b>
+        </div>
+            
+    </td>
+</tr>
+
+<script type="text/javascript" src="jit.js" ></script>
+</body>
+
+</html>
